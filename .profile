@@ -5,9 +5,6 @@ source $NVM_DIR/nvm.sh
 #go
 export GOPATH=$HOME/personal/go
 
-#pg
-export PGDATA=/usr/local/var/postgres
-
 powerline
 source ~/.bash-powerline.sh
 
