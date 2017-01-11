@@ -1,0 +1,19 @@
+[user]
+	name = Daniel Olasky
+	email = daniel.olasky@hotschedules.com
+[push]
+	default = current 
+[tag]
+  sort = version:refname
+[alias]
+  tidy = rebase -i @{upstream}
+[pull]
+  rebase = preserve
+[merge]
+  ff = false
+[status]
+  showUntrackedFiles = all
+[core]
+	editor = vim
+	excludesfile = ~/.gitignore_global
+

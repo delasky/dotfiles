@@ -31,5 +31,7 @@ call plug#begin('~/.vim/plugged')
     Plug 'tpope/vim-surround'
 " markdown
     Plug 'gabrielelana/vim-markdown'
+" whitespace
+    Plug 'ntpeters/vim-better-whitespace'
 call plug#end()
 
