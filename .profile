@@ -1,9 +1,15 @@
+
+#work/personal
+export PAID_WORKSPACE=~/work
+export PERSONAL_WORKSPACE=~/personal
+
 #nvm
 export NVM_DIR=~/.nvm
 source $NVM_DIR/nvm.sh
 
 #go
-export GOPATH=$HOME/personal/go
+export GOPATH=$HOME/$PERSONAL_WORKSPACE/go
+
 
 powerline
 source ~/.bash-powerline.sh

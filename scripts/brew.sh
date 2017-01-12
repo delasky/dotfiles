@@ -26,6 +26,7 @@ apps=(
     tree
     wget
     yarn
+    go
     )
 
 brew install "${apps[@]}"
