@@ -13,6 +13,7 @@ ln -sv "$DOTFILES_DIR/.gitignore_global" ~
 ln -sv "$DOTFILES_DIR/.npmrc" ~
 ln -sv "$DOTFILES_DIR/.profile" ~
 ln -sv "$DOTFILES_DIR/.vimrc" ~
+ln -sv "$DOTFILES_DIR/.sshconfig" ~/.ssh/config
 
 
 # vim shit
