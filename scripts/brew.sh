@@ -13,7 +13,7 @@ apps=(
     coreutils
     ffmpeg
     lynx
-    monogodb
+    mongodb
     nginx
     node
     openssl

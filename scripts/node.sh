@@ -1,7 +1,6 @@
 #!/bin/bash
 
-brew install nvm
-
+curl -o- https://raw.githubusercontent.com/creationix/nvm/v0.33.0/install.sh | bash
 nvm install 6
 
 packages=(
@@ -10,3 +9,5 @@ packages=(
     http-server
     nodemon
 )
+
+npm install -g "${packages[@]}"

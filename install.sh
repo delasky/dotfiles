@@ -17,11 +17,24 @@ ln -sv "$DOTFILES_DIR/.sshconfig" ~/.ssh/config
 
 
 # vim shit
-curl -fLo ~/.vim/autoload/plug.vim --createdirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
+curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
 vim +PlugInstall
+
+# bash
+curl https://raw.githubusercontent.com/riobard/bash-powerline/master/bash-powerline.sh > ~/.bash-powerline.sh
+
+curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-completion.bash > ~/.git-completion.bash
+
+chsh -s /bin/bash
+
+#create files
+if [ ! -f $PAID_WORKSPACE ]; then mkdir $PAID_WORKSPACE; fi
+if [ ! -f $PERSONAL_WORKSPACE ]; then mkdir $PERSONAL_WORKSPACE; fi
 
 # installers
 
 . "$DOTFILES_DIR/scripts/brew.sh"
-
+. "$DOTFILES_DIR/scripts/cask.sh"
+. "$DOTFILES_DIR/scripts/git_clone.sh"
+. "$DOTFILES_DIR/scripts/node.sh"
