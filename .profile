@@ -8,16 +8,17 @@ export NVM_DIR=~/.nvm
 source $NVM_DIR/nvm.sh
 
 #go
-export GOPATH=$HOME/$PERSONAL_WORKSPACE/go
+export GOPATH=$PERSONAL_WORKSPACE/go
 
 
-powerline
+#powerline
 source ~/.bash-powerline.sh
 
 #scripts
 PATH=$PATH:$HOME/bin:$GOPATH/bin
 export PATH
 
+echo $PATH
 if [ -f ~/bin/.git-completion.bash ]; then
   . ~/bin/.git-completion.bash
 fi

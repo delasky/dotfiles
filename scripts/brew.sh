@@ -27,6 +27,9 @@ apps=(
     wget
     yarn
     go
+    gdrive
+    tmux
+    jq
     )
 
 brew install "${apps[@]}"

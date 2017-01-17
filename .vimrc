@@ -8,6 +8,8 @@ highlight Normal ctermfg=grey ctermbg=black
 
 :set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
+:set laststatus=2
+
 :syntax on
 
 :set number
@@ -19,6 +21,8 @@ highlight Normal ctermfg=grey ctermbg=black
 :let g:vim_json_syntax_conceal = 0
 
 call plug#begin('~/.vim/plugged')
+" comment
+    Plug 'tomtom/tcomment_vim'
 " close chars
     Plug 'Townk/vim-autoclose'
 " Go syntax highlighting and autocomplete
@@ -33,5 +37,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'gabrielelana/vim-markdown'
 " whitespace
     Plug 'ntpeters/vim-better-whitespace'
+" airline
+    Plug 'vim-airline/vim-airline'
+    Plug 'vim-airline/vim-airline-themes'
 call plug#end()
 
