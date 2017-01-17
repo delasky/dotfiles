@@ -12,6 +12,7 @@ repos=(
     hsdashboard-service
     hsplatform-store-dashboard
     qa-dashboard-ui-automation
+    bodhi-dashboard-manager
 )
 
 for repo in "${repos[@]}"; do

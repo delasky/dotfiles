@@ -1,0 +1,39 @@
+### Development
+Host *.rbcplatform.com
+    ControlMaster auto
+    ControlPath ~/.ssh/%r@%h-%p
+    ControlPersist 8h
+    ServerAliveInterval 60
+    User dolasky
+    Host dev*.useast1.rbcplatform.com
+    ProxyCommand ssh bastion-2fa.useast1.rbcplatform.com 'nc -w 600 %h %p'
+
+### QA
+    Host *.rbcplatformqa.com
+    ControlMaster auto
+    ControlPath ~/.ssh/%r@%h-%p
+    ControlPersist 8h
+    ServerAliveInterval 60
+    User dolasky
+    Host qa*.useast1.rbcplatformqa.com
+    ProxyCommand ssh bastion-2fa.useast1.rbcplatformqa.com 'nc -w 600 %h %p'
+
+### Staging
+    Host *.rbcplatformstg.com
+    ControlMaster auto
+    ControlPath ~/.ssh/%r@%h-%p
+    ControlPersist 8h
+    ServerAliveInterval 60
+    User dolasky
+    Host stg*.useast1.rbcplatformstg.com
+    ProxyCommand ssh bastion-2fa.useast1.rbcplatformstg.com 'nc -w 600 %h %p'
+
+### Production
+    Host *.redbookcloud.com
+    ControlMaster auto
+    ControlPath ~/.ssh/%r@%h-%p
+    ControlPersist 8h
+    ServerAliveInterval 60
+    User dolasky
+    Host prd*.useast1.redbookcloud.com
+    ProxyCommand ssh bastion-2fa.useast1.redbookcloud.com 'nc -w 600 %h %p'kk
