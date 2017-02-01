@@ -18,7 +18,6 @@ source ~/.bash-powerline.sh
 PATH=$PATH:$HOME/bin:$GOPATH/bin
 export PATH
 
-echo $PATH
 if [ -f ~/bin/.git-completion.bash ]; then
   . ~/bin/.git-completion.bash
 fi

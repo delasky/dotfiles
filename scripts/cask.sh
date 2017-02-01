@@ -15,6 +15,7 @@ apps=(
     vlc
     virtualbox
     vagrant
+    mou
 )
 
 brew cask install "${apps[@]}"
