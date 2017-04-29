@@ -1,16 +1,21 @@
+"Basic bitch shit
 :set nocompatible
 
 :filetype on
 
 highlight Normal ctermfg=grey ctermbg=black
 
-:imap jj <Esc>
+"fd instead of esc
+:imap fd <Esc>
 
 :set tabstop=4 softtabstop=4 shiftwidth=4 expandtab
 
 :set laststatus=2
 
+" syntax highlighing on
 :syntax on
+
+au BufNewFile,BufRead *.svelte set filetype=html
 
 :set number
 
@@ -19,6 +24,16 @@ highlight Normal ctermfg=grey ctermbg=black
 :set scrolloff=10
 
 :let g:vim_json_syntax_conceal = 0
+
+"js extended highlighting
+let g:javascript_plugin_jsdoc = 1
+let g:javascript_plugin_flow = 1
+
+
+" set space as leader
+let mapleader = "\<Space>"
+let maplocalleader = ","
+
 
 call plug#begin('~/.vim/plugged')
 " comment
@@ -42,5 +57,17 @@ call plug#begin('~/.vim/plugged')
     Plug 'vim-airline/vim-airline-themes'
 " writing
     Plug 'mikewest/vimroom'
+" repeat
+    Plug 'tpope/vim-repeat'
+" git
+    Plug 'tpope/vim-fugitive'
+    Plug 'airblade/vim-gitgutter'
+" tmux nav
+    Plug 'christoomey/vim-tmux-navigator'
+" fuzzy finder
+    Plug 'junegunn/fzf'
+" better js highlighting
+    Plug 'pangloss/vim-javascript'
+
 call plug#end()
 

@@ -14,6 +14,7 @@ apps=(
     sublime-text3
     vlc
     virtualbox
+    virtualbox-extension-pack
     vagrant
     mou
 )

@@ -5,6 +5,7 @@
     ControlPath ~/.ssh/%C
     ControlPersist yes
     ServerAliveInterval 60
+    User dolasky
     Host plt-dev-*.plt.rbcplatform.com
     ProxyCommand ssh bastion-2fa.plt.rbcplatform.com 'nc -w 600 %h %p'
 

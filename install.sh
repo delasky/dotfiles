@@ -7,6 +7,7 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # symlink the dotfiles
 
+ln -sv "$DOTFILES_DIR/.inputrc" ~
 ln -sv "$DOTFILES_DIR/.bashrc" ~
 ln -sv "$DOTFILES_DIR/.gitconfig" ~
 ln -sv "$DOTFILES_DIR/.gitignore_global" ~

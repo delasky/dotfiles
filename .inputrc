@@ -1,0 +1,9 @@
+set editing-mode vi
+set show-mode-in-prompt on
+
+# vi settings
+#
+$if mode=vi
+    set keymap vi-insert
+    "fd": vi-movement-mode
+$endif
