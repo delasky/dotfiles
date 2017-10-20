@@ -8,7 +8,7 @@ export NVM_DIR=~/.nvm
 source $NVM_DIR/nvm.sh
 
 #yarn
-export PATH="$HOME/.yarn/bin:$PATH"
+export PATH=$PATH:$HOME/.config/yarn/global/node_modules/.bin
 
 #go
 export GOPATH=$PERSONAL_WORKSPACE/go

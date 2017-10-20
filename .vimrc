@@ -28,12 +28,18 @@ au BufNewFile,BufRead *.svelte set filetype=html
 "js extended highlighting
 let g:javascript_plugin_jsdoc = 1
 let g:javascript_plugin_flow = 1
-
+let g:jsx_ext_required = 0
 
 " set space as leader
 let mapleader = "\<Space>"
 let maplocalleader = ","
 
+" markdown preview
+
+let vim_markdown_preview_browser='Google Chrome'
+
+" fzf shortcut
+nmap ; :FZF<CR>
 
 call plug#begin('~/.vim/plugged')
 " comment
@@ -68,6 +74,12 @@ call plug#begin('~/.vim/plugged')
     Plug 'junegunn/fzf'
 " better js highlighting
     Plug 'pangloss/vim-javascript'
+" jsx highlighting
+    Plug 'mxw/vim-jsx'
+" coercion and other stuff
+    Plug 'tpope/vim-abolish'
+" markdown preview
+    Plug 'JamshedVesuna/vim-markdown-preview'
 
 call plug#end()
 
