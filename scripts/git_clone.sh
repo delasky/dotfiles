@@ -2,23 +2,6 @@
 
 #clone dashboard
 
-repos=(
-    a-dashboard-project-text-repo
-    bodhi-angular-dashboard-data
-    dashboard-build-script
-    dashboard-ecosystem
-    dashboard-table-mapper
-    dashboard-utils
-    hsdashboard-service
-    hsplatform-store-dashboard
-    qa-dashboard-ui-automation
-    bodhi-dashboard-manager
-)
-
-for repo in "${repos[@]}"; do
-    git clone git@bitbucket.org:redbookplatform/$repo.git $PAID_WORKSPACE/dashboard/$repo
-done
-
 personal_repos=(
     delasky.github.io
 )

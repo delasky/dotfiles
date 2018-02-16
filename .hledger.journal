@@ -1,0 +1,518 @@
+; journal created 2017-12-02 by hledger
+
+2017/12/09 initial set up
+    assets:savings                1502.80
+    starting value        -1502.80
+
+2017/12/09 intiial set up: checking
+    assets:checking               4839.74
+    starting value        -4839.74
+
+2017/12/09 initial set up: credit card
+    starting value                           280.07
+    liabilities:chasefreedom          -280.07
+
+2017/12/10 initial set up: credit card 2
+    starting value              9563.06
+    liabilities:sapphire         -9563.06
+
+2017/12/10 credit card payment
+    liabilities:sapphire            4000
+    assets:checking              -4000.0
+
+2017/12/10 cheese plus lunch
+    expenses:b&d:food              28.25
+    liabilities:sapphire          -28.25
+
+2017/12/10 mt diablo snacks
+    expenses:b&d:food               8.00
+    liabilities:sapphire            -8.00
+
+2017/12/10 clothes at targert
+    expenses:personal:clothes              71.42
+    liabilities:sapphire           -71.42
+
+2017/12/09 dinner in walnut creek
+    expenses:b&d:food              59.08
+    liabilities:sapphire           -59.08
+
+2017/12/09 lunch with b
+    expenses:b&d:food              60.00
+    liabilities:sapphire           -60.00
+
+2017/12/09 groceries
+    expenses:b&d:food              66.54
+    liabilities:sapphire          -66.54
+
+2017/12/11 atm withdrawal
+    assets:cash                 200
+    expenses:personal:fees                 3
+    assets:checking          -203.0
+
+2017/12/11 coffee
+    expenses:personal:food               1
+    assets:cash                  -1.0
+
+2017/12/11 breakfast
+    expenses:personal:food            7.06
+    assets:cash                      -7.06
+
+2017/12/11 DSL
+    expenses:personal:medical             120
+    assets:cash                        -120.0
+
+2017/12/11 lunch
+    expenses:personal:food              10
+    assets:cash                      -10.0
+
+2017/12/11 gatorade
+    expenses:personal:food            2.00
+    assets:cash                      -2.00
+
+2017/12/11 atm withdrawal
+    assets:cash                 60
+    expenses:personal:fees                 3.50
+    assets:checking          -63.50
+
+2017/12/11 weed
+    assets:personal:holdings           69.44
+    assets:cash                       -69.44
+
+2017/12/11 trader joes
+    expenses:b&d:food              12.07
+    liabilities:sapphire          -12.07
+
+2017/12/11 marijuana
+    expenses:personal:recreation              50
+    assets:cash                            -50.0
+
+2017/12/12 clipper
+    expenses:personal:travel                     20
+    liabilities:chasefreedom           -20.0
+
+2017/12/12 coffee
+    expenses:b&d:food                  7
+    liabilities:sapphire            -7.0
+
+2017/12/12 drinks @ pagan idol with braden
+    expenses:personal:recreation              35
+    liabilities:sapphire                   -35.0
+
+2017/12/12 dinner with braden
+    expenses:personal:food              30
+    liabilities:sapphire             -30.0
+
+2017/12/12 dinner for becca
+    expenses:becca:food               18
+    liabilities:sapphire           -18.0
+
+2017/12/13 pizza dinner
+    expenses:b&d:food                 50
+    liabilities:sapphire           -50.0
+
+2017/12/13 lunch
+    expenses:personal:food               9
+    assets:cash                       -9.0
+
+2017/12/13 braden sale
+    assets:cash                           65
+    assets:personal:holdings           -65.0
+
+2017/12/14 lunch
+    expenses:personal:food            9.49
+    liabilities:sapphire             -9.49
+
+2017/12/14 dinner
+    expenses:b&d:food              39.16
+    liabilities:sapphire          -39.16
+
+2017/12/14 walgreens
+    expenses:personal:medical           16.25
+    liabilities:sapphire               -16.25
+
+2017/12/15 payday
+    assets:checking             2097.07
+    income:hotschedules        -2097.07
+
+2017/12/15 parking
+    expenses:personal:fees            2.50
+    liabilities:sapphire             -2.50
+
+2017/12/15 breakfast
+    expenses:b&d:food               8.75
+    liabilities:sapphire           -8.75
+
+2017/12/15 lunch:cheese plus
+    expenses:personal:food           10.25
+    liabilities:sapphire            -10.25
+
+2017/12/15 dinner:sun kwong
+    expenses:b&d:food              11.18
+    liabilities:sapphire          -11.18
+
+2017/12/16 drinks mendocino
+    expenses:b&d:food              55
+    assets:cash                 -55.0
+
+2017/12/16 drinks w/ andy
+    expenses:personal:food              32
+    liabilities:sapphire             -32.0
+
+2017/12/16 reimubrsment andy
+    assets:cash              15
+    income:misc           -15.0
+
+2017/12/16 dinner
+    expenses:b&d:food                 32
+    liabilities:sapphire           -32.0
+
+2017/12/16 cupcake
+    expenses:personal:food               1
+    assets:cash                       -1.0
+
+2017/12/16 breakfast
+    expenses:b&d:food                 15
+    liabilities:sapphire           -15.0
+
+2017/12/17 gas
+    expenses:b&d:travel            44.55
+    liabilities:sapphire          -44.55
+
+2017/12/16 dinner x 2
+    expenses:b&d:food                 22
+    liabilities:sapphire           -22.0
+
+2017/12/16 lunch in gualala
+    expenses:b&d:food              19.55
+    liabilities:sapphire          -19.55
+
+2017/12/17 groceries at real food
+    expenses:b&d:food              12.88
+    liabilities:sapphire          -12.88
+
+2017/12/17 chase freedom credit card payment
+    liabilities:chasefreedom          300.07
+    assets:checking              -300.07
+
+2017/12/18 atm withdrawal for don
+    assets:cash                      200.0
+    expenses:personal:fees               3
+    assets:checking                 -203.0
+
+2017/12/18 don st louis
+    expenses:personal:medical             180
+    assets:cash                        -180.0
+
+2017/12/18 breakfast at burger king
+    expenses:personal:food            6.71
+    assets:cash                      -6.71
+
+2017/12/18 money to bum
+    expenses:personal:charity               5
+    assets:cash                          -5.0
+
+2017/12/18 money to bum 2
+    expenses:personal:charity               1
+    assets:cash                          -1.0
+
+2017/12/18 late fee reversal
+    liabilities:sapphire              27
+    income:misc                    -27.0
+
+2017/12/18 netflix
+    expenses:b&d:recreation             7.99
+    liabilities:chasefreedom           -7.99
+
+2017/12/19 gifts for white elephant
+    expenses:personal:gifts           31.87
+    liabilities:sapphire             -31.87
+
+2017/12/18 lunch at halal cart
+    expenses:personal:food              10
+    assets:cash                      -10.0
+
+2017/12/18 groceries at real food
+    expenses:b&d:food              22.14
+    liabilities:sapphire          -22.14
+
+2017/12/18 travel credit
+    liabilities:sapphire            35.5
+    income:misc                    -35.5
+
+2017/12/18 betterment transfer
+    assets:betterment             100
+    assets:checking            -100.0
+
+2017/12/16 drinks mendocino x2
+    expenses:b&d:food           10.79
+    assets:cash                -10.79
+
+2017/12/19 dinner with becca at ozone thai
+    expenses:b&d:food              52.40
+    liabilities:sapphire          -52.40
+
+2017/12/20 lunch meatball bar
+    expenses:personal:food            9.87
+    liabilities:sapphire             -9.87
+
+2017/12/20 ladle and leaf breakfast
+    expenses:personal:food            6.77
+    liabilities:sapphire             -6.77
+
+2017/12/20 cofee basik
+    expenses:personal:food               3
+    liabilities:sapphire              -3.0
+
+2017/12/21 dinner at sfo
+    expenses:b&d:food              85.32
+    liabilities:sapphire          -85.32
+
+2017/12/21 ubers to airport
+    expenses:b&d:travel            48.81
+    liabilities:sapphire          -48.81
+
+2017/12/22 dinner at whole foods austin
+    expenses:personal:food           16.60
+    liabilities:sapphire            -16.60
+
+2017/12/22 photos for catherine
+    expenses:personal:gifts           14.94
+    liabilities:sapphire             -14.94
+
+2017/12/22 donation to beto
+    expenses:personal:charity              25
+    liabilities:sapphire                -25.0
+
+2017/12/22 cab to condo
+    expenses:b&d:travel               32
+    liabilities:sapphire           -32.0
+
+2017/12/21 dinner at airport
+    expenses:b&d:travel           131.11
+    liabilities:sapphire         -131.11
+
+2017/12/23 fedex to houston
+    expenses:personal:gifts           43.50
+    liabilities:sapphire             -43.50
+
+2017/12/23 gifts for louisa, dalila, amos, jf and annie
+    expenses:personal:gifts          168.87
+    liabilities:sapphire            -168.87
+
+2017/12/23 chick fil a for becca
+    expenses:b&d:food              11.86
+    liabilities:sapphire          -11.86
+
+2017/12/24 target
+    expenses:personal:gifts          164.54
+    liabilities:sapphire            -164.54
+
+2017/12/24 crafts for christmas
+    expenses:personal:gifts           23.79
+    liabilities:sapphire             -23.79
+
+2017/12/26 sweatshirts from target
+    expenses:personal:clothes           28.12
+    liabilities:sapphire               -28.12
+
+2017/12/26 ingredients for enchiladas and ziti
+    expenses:b&d:food              73.61
+    liabilities:sapphire          -73.61
+
+2017/12/27 food on way to houston
+    expenses:b&d:food              14.81
+    liabilities:sapphire          -14.81
+
+2017/12/27 gas
+    expenses:b&d:travel               30
+    liabilities:sapphire           -30.0
+
+2017/12/29 hotel derek fees
+    expenses:b&d:travel            22.90
+    liabilities:sapphire          -22.90
+
+2017/12/29 gas on the way to the lake
+    expenses:b&d:travel            36.75
+    liabilities:sapphire          -36.75
+
+2017/12/30 dinner with ashley and alex @ odd duck
+    expenses:b&d:food              87.68
+    liabilities:sapphire          -87.68
+
+2017/12/31 uber to airport
+    expenses:b&d:travel            22.17
+    liabilities:sapphire          -22.17
+
+2017/12/31 water at airport
+    expenses:b&d:food               7.92
+    liabilities:sapphire           -7.92
+
+2017/12/24 atm withdrawal in temple
+    assets:cash                         80
+    expenses:personal:fees            2.95
+    assets:checking                 -82.95
+
+2017/12/25 atm fee reimbursment from ally
+    assets:checking              10
+    income:misc               -10.0
+
+2017/12/25 interest from ally
+    assets:checking            0.25
+    income:misc               -0.25
+
+2017/12/29 pay from hotschedules
+    assets:checking         2256.71
+    income:hotschedules        -2256.71
+
+2017/12/29 bonus from hotschedules
+    assets:checking             1110.95
+    income:hotschedules        -1110.95
+
+2017/12/31 miscelanneous cash purchases
+    expenses:personal:recreation              40
+    assets:cash                            -40.0
+
+2018/01/01 breakfast at mymy
+    expenses:b&d:food              50.12
+    liabilities:sapphire          -50.12
+
+2018/01/01 dinner at nara sushi
+    expenses:b&d:food              74.12
+    liabilities:sapphire          -74.12
+
+2018/01/02 breakfast at proper foods
+    expenses:personal:food            5.50
+    liabilities:sapphire             -5.50
+
+2018/01/02 lunch at golden west
+    expenses:personal:food           13.80
+    liabilities:sapphire            -13.80
+
+2018/01/02 sold bicycle
+    assets:cash              40
+    income:misc           -40.0
+
+2018/01/02 prescripition renewal
+    expenses:personal:medical              10
+    liabilities:sapphire                -10.0
+
+2018/01/02 envelopes
+    expenses:personal:household           2.48
+    liabilities:sapphire                 -2.48
+
+2018/01/02 catchup savings account income
+    assets:savings               501.59
+    income:hotschedules         -501.59
+
+2018/01/02 transfer from checking to savings
+    assets:checking            1000
+    assets:savings          -1000.0
+
+2018/01/02 pay credit card
+    liabilities:sapphire         5859.98
+    assets:checking             -5859.98
+
+2018/01/05 project fi
+    expenses:personal:household           85.71
+    liabilities:chasefreedom             -85.71
+
+2018/01/07 phone game
+    expenses:personal:household            3.99
+    liabilities:chasefreedom              -3.99
+
+2018/01/03 lunch at cheese plus
+    expenses:personal:food           11.66
+    liabilities:sapphire            -11.66
+
+2018/01/03 groceries at trader joes
+    expenses:b&d:food              27.03
+    liabilities:sapphire          -27.03
+
+2018/01/03 starbucks menlo park
+    expenses:personal:food           10.40
+    liabilities:sapphire            -10.40
+
+2018/01/03 inside texas renewal
+    expenses:personal:household            9.99
+    liabilities:sapphire                  -9.99
+
+2018/01/04 jacks shoe repair
+    expenses:personal:clothes           40.88
+    liabilities:sapphire               -40.88
+
+2018/01/04 lunch at organic coup
+    expenses:personal:food           14.41
+    liabilities:sapphire            -14.41
+
+2018/01/04 groceries at trader joes
+    expenses:b&d:food              16.56
+    liabilities:sapphire          -16.56
+
+2018/01/05 escape from new york pizza
+    expenses:b&d:food              37.81
+    liabilities:sapphire          -37.81
+
+2018/01/05 breakfast at square workshop
+    expenses:personal:food            8.68
+    liabilities:sapphire             -8.68
+
+2018/01/05 uber
+    expenses:personal:travel            3.69
+    liabilities:sapphire               -3.69
+
+2018/01/06 dinner at papito
+    expenses:b&d:food              42.90
+    liabilities:sapphire          -42.90
+
+2018/01/06 brunch at house rules
+    expenses:b&d:food              68.52
+    liabilities:sapphire          -68.52
+
+2018/01/06 dogpatch saloon
+    expenses:b&d:food              28.00
+    liabilities:sapphire          -28.00
+
+2018/01/07 brunch at house rules
+    expenses:b&d:food              46.09
+    liabilities:sapphire          -46.09
+
+2018/01/07 haircut at backstage
+    expenses:personal:household              75
+    liabilities:sapphire                  -75.0
+
+2018/01/07 dinner at mezcalito
+    expenses:b&d:food              66.30
+    liabilities:sapphire          -66.30
+
+2018/01/07 dessert at loving cup
+    expenses:b&d:food                9.2
+    liabilities:sapphire            -9.2
+
+2018/01/03 betterment
+    assets:betterment           100.0
+    assets:checking            -100.0
+
+2018/01/05 coffee
+    expenses:personal:food               3
+    liabilities:sapphire              -3.0
+
+2018/01/05 drinks at sutter
+    expenses:b&d:food                 48
+    liabilities:sapphire           -48.0
+
+2018/01/08 atm withdrawal for don
+    assets:cash                        100
+    expenses:personal:fees               3
+    assets:checking                 -103.0
+
+2018/01/08 lunch at henrys
+    expenses:personal:food               8
+    assets:cash                       -8.0
+
+2018/01/08 breakfast at les croissants
+    expenses:personal:food               6
+    assets:cash                       -6.0
+
+2018/01/08 session with don
+    expenses:personal:medical             200
+    assets:cash                        -200.0

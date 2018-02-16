@@ -31,12 +31,12 @@ curl https://raw.githubusercontent.com/git/git/master/contrib/completion/git-com
 chsh -s /bin/bash
 
 #create files
+#defined in .profile
 if [ ! -f $PAID_WORKSPACE ]; then mkdir $PAID_WORKSPACE; fi
 if [ ! -f $PERSONAL_WORKSPACE ]; then mkdir $PERSONAL_WORKSPACE; fi
 
 # installers
 
 . "$DOTFILES_DIR/scripts/brew.sh"
-. "$DOTFILES_DIR/scripts/cask.sh"
 . "$DOTFILES_DIR/scripts/git_clone.sh"
 . "$DOTFILES_DIR/scripts/node.sh"
