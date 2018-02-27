@@ -14,8 +14,9 @@ ln -sv "$DOTFILES_DIR/.gitignore_global" ~
 ln -sv "$DOTFILES_DIR/.npmrc" ~
 ln -sv "$DOTFILES_DIR/.profile" ~
 ln -sv "$DOTFILES_DIR/.vimrc" ~
+ln -sv "$DOTFILES_DIR/.tmux.conf" ~
 ln -sv "$DOTFILES_DIR/.hledger.journal" ~
-ln -sv "$DOTFILES_DIR/.neovim" ~ ~/.config/neovim/init.vim
+ln -sv "$DOTFILES_DIR/.neovim" ~ ~/.config/nvim/init.vim
 ln -sv "$DOTFILES_DIR/.sshconfig" ~/.ssh/config
 ln -sv "$DOTFILES_DIR/scripts/bin/*" ~/bin
 

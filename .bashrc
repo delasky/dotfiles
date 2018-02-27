@@ -9,3 +9,11 @@ source ~/.bash-powerline.sh
 export PATH="$PATH:$HOME/.rvm/bin"
 
 export PATH="$HOME/.yarn/bin:$PATH"
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
+
+# tabtab source for serverless package
+# uninstall by removing these lines or running `tabtab uninstall serverless`
+[ -f /Users/danielolasky/work/cardash/node_modules/tabtab/.completions/serverless.bash ] && . /Users/danielolasky/work/cardash/node_modules/tabtab/.completions/serverless.bash
+# tabtab source for sls package
+# uninstall by removing these lines or running `tabtab uninstall sls`
+[ -f /Users/danielolasky/work/cardash/node_modules/tabtab/.completions/sls.bash ] && . /Users/danielolasky/work/cardash/node_modules/tabtab/.completions/sls.bash
