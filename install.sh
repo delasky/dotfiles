@@ -7,6 +7,8 @@ DOTFILES_DIR="$( cd "$( dirname "${BASH_SOURCE[0]}" )" && pwd )"
 
 # symlink the dotfiles
 
+mkdir ~/bin
+
 ln -sv "$DOTFILES_DIR/.inputrc" ~
 ln -sv "$DOTFILES_DIR/.bashrc" ~
 ln -sv "$DOTFILES_DIR/.gitconfig" ~
@@ -19,7 +21,9 @@ ln -sv "$DOTFILES_DIR/.tmux.conf" ~
 ln -sv "$DOTFILES_DIR/.hledger.journal" ~
 ln -sv "$DOTFILES_DIR/.neovim" ~ ~/.config/nvim/init.vim
 ln -sv "$DOTFILES_DIR/.sshconfig" ~/.ssh/config
-ln -sv "$DOTFILES_DIR/scripts/bin/*" ~/bin
+
+PATH=$PATH:DOTFILES_DIR/scripts/bin
+export PATH
 
 
 # vim shit

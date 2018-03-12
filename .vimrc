@@ -18,12 +18,18 @@ au BufNewFile,BufRead *.svelte set filetype=html
 
 :set number
 
-:set colorcolumn=80
+:set colorcolumn=100
 
 :set scrolloff=10
 
+:set nohlsearch
 
-:let g:vim_json_syntax_conceal = 0
+
+let g:netrw_localrmdir='rm -r'
+
+let g:strip_whitespace_on_save = 1
+
+let g:vim_json_syntax_conceal = 0
 
 "js extended highlighting
 let g:javascript_plugin_jsdoc = 1
@@ -40,13 +46,27 @@ let vim_markdown_preview_browser='Google Chrome'
 
 " fzf shortcut
 nmap ; :FZF<CR>
+nmap ' :FZF ~/work/cardash<CR>
 
 " linting
+
 let g:ale_linters = {
 \   'javascript': ['eslint'],
 \}
+
+let g:ale_fixers = {
+\   'javascript': ['eslint'],
+\}
+
+let g:ale_fix_on_save = 1
+
 let g:airline#extensions#ale#enabled = 1
 
+nmap <silent> <localleader>. <Plug>(ale_previous_wrap)
+nmap <silent> <localleader>, <Plug>(ale_next_wrap)
+
+" shortcut for Ex
+nmap - :Ex<CR>
 
 call plug#begin('~/.vim/plugged')
 " comment
@@ -91,5 +111,6 @@ call plug#begin('~/.vim/plugged')
     Plug 'https://github.com/styled-components/vim-styled-components'
 "linting
     Plug 'w0rp/ale'
+
 call plug#end()
 

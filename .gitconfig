@@ -6,7 +6,8 @@
 [tag]
     sort = version:refname
 [alias]
-    syncdev = !git checkout dev && git pull && git checkout @{-1} && git rebase dev
+    sync = !git checkout staging && git pull && git checkout @{-1} && git rebase staging
+    co = checkout
 [pull]
     rebase = preserve
 [merge]
