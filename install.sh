@@ -48,3 +48,4 @@ if [ ! -f $PERSONAL_WORKSPACE ]; then mkdir $PERSONAL_WORKSPACE; fi
 . "$DOTFILES_DIR/scripts/brew.sh"
 . "$DOTFILES_DIR/scripts/git_clone.sh"
 . "$DOTFILES_DIR/scripts/node.sh"
+. "$DOTFILES_DIR/scripts/pip.sh"

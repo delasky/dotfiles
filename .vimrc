@@ -111,6 +111,8 @@ call plug#begin('~/.vim/plugged')
     Plug 'https://github.com/styled-components/vim-styled-components'
 "linting
     Plug 'w0rp/ale'
+"autocomplete
+    Plug 'roxma/nvim-completion-manager'
 
 call plug#end()
 
