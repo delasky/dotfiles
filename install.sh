@@ -22,9 +22,9 @@ ln -sv "$DOTFILES_DIR/.hledger.journal" ~
 ln -sv "$DOTFILES_DIR/.neovim" ~ ~/.config/nvim/init.vim
 ln -sv "$DOTFILES_DIR/.sshconfig" ~/.ssh/config
 
-PATH=$PATH:DOTFILES_DIR/scripts/bin
-export PATH
-
+for script in $DOTFILES_DIR; do
+  ln -sv $script ~/bin
+done
 
 # vim shit
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim

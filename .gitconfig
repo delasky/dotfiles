@@ -8,10 +8,11 @@
 [alias]
     sync = !git checkout staging && git pull && git checkout @{-1} && git rebase staging
     co = checkout
+    pending = log origin/master..origin/staging --pretty=format:"%C(yellow)%h%x09%Cred%<(15,trunc)%an%x09%Cblue%ad%x09%Cgreen%<(50,trunc)%s" --date=short
 [pull]
     rebase = preserve
 [merge]
-    ff = false
+    ff = true
 [status]
     showUntrackedFiles = all
 [core]

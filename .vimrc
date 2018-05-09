@@ -3,9 +3,6 @@
 
 highlight Normal ctermfg=grey ctermbg=black
 
-"fd instead of esc
-:imap fd <Esc>
-
 :set tabstop=2 softtabstop=2 shiftwidth=2 expandtab
 
 :set laststatus=2
@@ -15,7 +12,6 @@ highlight Normal ctermfg=grey ctermbg=black
 
 au BufNewFile,BufRead *.svelte set filetype=html
 
-
 :set number
 
 :set colorcolumn=100
@@ -24,6 +20,7 @@ au BufNewFile,BufRead *.svelte set filetype=html
 
 :set nohlsearch
 
+"let g:deoplete#enable_at_startup = 1
 
 let g:netrw_localrmdir='rm -r'
 
@@ -75,8 +72,9 @@ call plug#begin('~/.vim/plugged')
     Plug 'Townk/vim-autoclose'
 " Go syntax highlighting and autocomplete
     Plug 'fatih/vim-go'
-" Json highlighitng and validation
+" Json
     Plug 'https://github.com/elzr/vim-json.git'
+    Plug 'tpope/vim-jdaddy'
 " less highlighting
     Plug 'https://github.com/groenewege/vim-less.git'
 " tag and quotes surrounding
@@ -95,6 +93,7 @@ call plug#begin('~/.vim/plugged')
 " git
     Plug 'tpope/vim-fugitive'
     Plug 'airblade/vim-gitgutter'
+    Plug 'tpope/vim-rhubarb'
 " tmux nav
     Plug 'christoomey/vim-tmux-navigator'
 " fuzzy finder
@@ -111,6 +110,12 @@ call plug#begin('~/.vim/plugged')
     Plug 'https://github.com/styled-components/vim-styled-components'
 "linting
     Plug 'w0rp/ale'
+"autcomplete
+    Plug 'Shougo/deoplete.nvim', { 'do': ':UpdateRemotePlugins' }
+"tern
+    Plug 'carlitux/deoplete-ternjs', { 'do': 'npm install -g tern' }
+"graphql
+    Plug 'jparise/vim-graphql'
 
 call plug#end()
 
