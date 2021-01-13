@@ -1,21 +1,22 @@
 [user]
 	name = Daniel Olasky
-	email = daniel.olasky@hotschedules.com
+	email = daniel@cardash.com
 [push]
 	default = current
 [tag]
-    sort = version:refname
+  sort = version:refname
 [alias]
-    sync = !git checkout staging && git pull && git checkout @{-1} && git rebase staging
-    co = checkout
-    pending = log origin/master..origin/staging --pretty=format:"%C(yellow)%h%x09%Cred%<(15,trunc)%an%x09%Cblue%ad%x09%Cgreen%<(50,trunc)%s" --date=short
+  sync = !git checkout master && git pull && git checkout @{-1} && git rebase master
+  co = checkout
+  pending = log origin/master..origin/staging --pretty=format:"%C(yellow)%h%x09%Cred%<(15,trunc)%an%x09%Cblue%ad%x09%Cgreen%<(50,trunc)%s" --date=short
+  cleanup = !git branch | grep -v "master" | xargs git branch -D
 [pull]
-    rebase = preserve
+  rebase = preserve
 [merge]
-    ff = true
+  ff = true
 [status]
-    showUntrackedFiles = all
+  showUntrackedFiles = all
 [core]
-    editor = vim
-    excludesfile = ~/.gitignore_global
+  editor = nvim
+  excludesfile = ~/.gitignore_global
 

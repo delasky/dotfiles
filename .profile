@@ -1,15 +1,13 @@
 #work/personal
 export PAID_WORKSPACE=~/work
 export PERSONAL_WORKSPACE=~/personal
+export EDITOR=nvim
 
 
 export NVM_DIR=~/.nvm
 npm config set prefix $NVM_DIR/versions/node/v8.10.0
 source $NVM_DIR/nvm.sh
-nvm use default
-
-#aws
-export AWS_PROFILE=default
+nvm use 10.15.2
 
 #yarn
 export PATH=$PATH:$HOME/.config/yarn/global/node_modules/.bin
@@ -24,8 +22,7 @@ export PATH=$PATH:~/Library/Python/3.6/lib/python/site-package
 source ~/.bash-powerline.sh
 
 #scripts
-PATH=$PATH:$HOME/bin:$GOPATH/bin
-export PATH
+export PATH=$PATH:$HOME/bin:$GOPATH/bin
 
 #aliases
 alias gst='git status'
@@ -74,3 +71,5 @@ _yargs_completions()
 complete -F _yargs_completions graphql
 ###-end-graphql-completions-###
 
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+eval "$(rbenv init -)"
